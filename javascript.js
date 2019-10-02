@@ -47,57 +47,11 @@ function hitung(){
   var y=eval(form1.a3.value);
   document.getElementById("tampil").innerHTML=
     "<table>\
-    <tr>\
-    <td>\
-    Mean\
-    </td>\
-    <td>\
-    :\
-    </td>\
-    <td>\
-    "+ mean(w,x,y) +"\
-    </td>\
-    </tr>\
-    <td>\
-    Median\
-    </td>\
-    <td>\
-    :\
-    </td>\
-    <td>\
-    "+ median(w,x,y) +"\
-    </td>\
-    </tr>\
-    <td>\
-    Modus\
-    </td>\
-    <td>\
-    :\
-    </td>\
-    <td>\
-    "+ modus(w,x,y) +"\
-    </td>\
-    </tr>\
-    <td>\
-    Max\
-    </td>\
-    <td>\
-    :\
-    </td>\
-    <td>\
-    "+ max(w,x,y) +"\
-    </td>\
-    </tr>\
-    <td>\
-    Min\
-    </td>\
-    <td>\
-    :\
-    </td>\
-    <td>\
-    "+ min(w,x,y) +"\
-    </td>\
-    </tr>\
+    <tr>\<td>\Mean\</td>\<td>\:\</td>\<td>\ "+ mean(w,x,y) +"\ </td>\</tr>\
+    <td>\Median\</td>\<td>\:\</td>\<td>\ "+ median(w,x,y) +"\ </td>\</tr>\
+    <td>\Modus\</td>\<td>\:\</td>\<td>\ "+ modus(w,x,y) +"\ </td>\</tr>\
+    <td>\Max\</td>\<td>\:\</td>\<td>\ "+ max(w,x,y) +" \</td>\</tr>\
+    <td>\Min\</td>\<td>\:\</td>\<td>\ "+ min(w,x,y) +" \</td>\</tr>\
     </table>"
   ;
 }
